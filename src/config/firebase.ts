@@ -1,0 +1,10 @@
+export const firebaseConfig = {
+  apiKey: "AIzaSyCDV57IOzTy6_NNsqrkpgK7EwhjaJ4Inr8",
+  authDomain: "inspirational-bounty-rk7s0.firebaseapp.com",
+  projectId: "inspirational-bounty-rk7s0",
+  storageBucket: "inspirational-bounty-rk7s0.firebasestorage.app",
+  messagingSenderId: "306021682402",
+  appId: "1:306021682402:web:691b21014886665e7ae2bb",
+  measurementId: "",
+  firestoreDatabaseId: "ai-studio-animatch-c146d1f7-4ad4-4ef5-813b-9997f02b2a76"
+};

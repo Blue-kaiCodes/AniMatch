@@ -1,0 +1,1 @@
+{"name":"AniMatch","description":"An interactive, content-based anime recommendation engine utilizing TF-IDF and Cosine Similarity, with personalized, dynamic matchmaking insights and smart companion chat.","requestFramePermissions":[],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}

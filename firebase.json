@@ -1,0 +1,8 @@
+{
+  "firestore": {
+    "databaseId": "ai-studio-animatch-c146d1f7-4ad4-4ef5-813b-9997f02b2a76",
+    "rules": "firestore.rules",
+    "edition": "ENTERPRISE",
+    "dataAccessMode": "FIRESTORE_NATIVE"
+  }
+}
