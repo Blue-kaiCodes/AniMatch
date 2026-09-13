@@ -1,4 +1,4 @@
-# AniMatch 🎌
+# AniMatch
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
@@ -10,35 +10,32 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
 </p>
 
-AniMatch is a highly polished, interactive, consumer-ready anime recommendation and matchmaking platform. It utilizes content-based natural language processing (NLP) algorithms—specifically **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity**—to calculate high-fidelity matching profiles between users' favorite shows and the rest of the catalog. The intelligence is supported behind-the-scenes by server-side query assistance to deliver deep matchmaking insights and companion chats in a seamless Vercel/Linear-inspired interface.
+AniMatch is a polished, interactive anime recommendation and matchmaking platform. It utilizes content-based natural language processing (NLP) algorithms—specifically **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity**—to calculate high-fidelity matching profiles between users' favorite shows and the rest of the catalog. The intelligence is supported behind-the-scenes by server-side query assistance to deliver deep matchmaking insights and companion chats in a clean, high-contrast dark interface.
 
 ---
 
-## 🌐 Live Deployments
+## Live Demo
 
-Experience AniMatch live in your browser:
-
-* 🚀 **Primary Cloud Deployment**: [animatch-306021682402.asia-southeast1.run.app](https://animatch-306021682402.asia-southeast1.run.app/)
-* ⚡ **Render Deployment**: [animatch-vigg.onrender.com](https://animatch-vigg.onrender.com/)
+Experience AniMatch live in your browser: [animatch-306021682402.asia-southeast1.run.app](https://animatch-306021682402.asia-southeast1.run.app/)
 
 ---
 
-## 🚀 Key Features
+## Features
 
-* **Advanced Matching & TF-IDF Vector Math**: Seamlessly computes similarity rankings across genres, synopses, and studios, recommending titles with precise, graded match percentages.
-* **Premium Local Identity & Session Sync**: A comprehensive onboarding flow with email registration, customizable anime avatars, and genre bias calibrators that dynamically skew recommendation vectors.
-* **Dynamic Companion Guide**: An interactive, smart conversation assistant designed to understand natural language intent, find obscure gems, and extract matching series with in-chat card saving.
+* **Advanced Matching & TF-IDF Vector Math**: Computes similarity rankings across genres, synopses, and studios, recommending titles with precise, graded match percentages.
+* **Local Identity & Session Sync**: Onboarding flow with registration, anime avatars, and genre bias calibrators that dynamically skew recommendation vectors.
+* **Dynamic Companion Guide**: Interactive conversation assistant designed to understand natural language intent, find obscure gems, and extract matching series with in-chat card saving.
 * **Matchmaker Insights Engine**: 
-  * 🧭 **Vibe Check**: Demystifies core aesthetic, pacing, and mood characteristics.
-  * 🗺️ **Watch Order**: Recommends chronologically cohesive viewing paths across franchises.
-  * 🛡️ **Suitability Check**: Honest, direct rating reviews and trigger indicators.
-  * 💡 **Fun Facts**: Fascinating development details and obscure trivia.
-* **Interactive Kanban Watch Board**: A fluid, responsive drag-and-drop workspace divided into *Want to Watch*, *Watching*, and *Completed* lanes.
-* **Sleek Vercel & Linear-Inspired Theme**: Styled in slate dark tones, custom high-contrast geometric logos, sharp typography (Space Grotesk & Inter), elegant hover transitions, and mobile responsive menus.
+  * **Vibe Check**: Demystifies core aesthetic, pacing, and mood characteristics.
+  * **Watch Order**: Recommends chronologically cohesive viewing paths across franchises.
+  * **Suitability Check**: Rating reviews and content indicator summaries.
+  * **Fun Facts**: Studio history, production details, and development trivia.
+* **Interactive Kanban Watch Board**: Fluid drag-and-drop workspace divided into *Want to Watch*, *Watching*, and *Completed* lanes.
+* **Theme**: Styled in slate dark tones, high-contrast geometric logos, sharp typography (Space Grotesk & Inter), hover transitions, and mobile responsive menus.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 * **Core**: React 19 (TypeScript)
@@ -55,7 +52,7 @@ Experience AniMatch live in your browser:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── .env.example            # Environment variables template
@@ -97,7 +94,7 @@ Experience AniMatch live in your browser:
 
 ---
 
-## 🔌 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory and supply the following variables:
 
@@ -112,7 +109,7 @@ APP_URL="http://localhost:3000"
 
 ---
 
-## 💻 Installation & Development
+## Installation & Development
 
 Follow these steps to run AniMatch locally:
 
@@ -142,7 +139,7 @@ Open your browser and navigate to `http://localhost:3000`.
 
 ---
 
-## 🏗️ Production Build & Run
+## Production Build & Run
 
 To prepare and serve AniMatch in a production-ready environment:
 
@@ -160,10 +157,10 @@ The application will listen on port `3000`.
 
 ---
 
-## 🤝 Contribution Guidelines
+## Contribution Guidelines
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit an issue to improve the recommendation mathematics or add new AI prompts.
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details. (Or refer to standard open-source guidelines).
