@@ -1,6 +1,25 @@
 # AniMatch 🎌
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-5.8-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-6-646cff?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
+  <img src="https://img.shields.io/badge/Google_Gemini-API-8e75ff?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Firebase-Auth_%26_Firestore-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
+</p>
+
 AniMatch is a highly polished, interactive, consumer-ready anime recommendation and matchmaking platform. It utilizes content-based natural language processing (NLP) algorithms—specifically **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity**—to calculate high-fidelity matching profiles between users' favorite shows and the rest of the catalog. The intelligence is supported behind-the-scenes by server-side query assistance to deliver deep matchmaking insights and companion chats in a seamless Vercel/Linear-inspired interface.
+
+---
+
+## 🌐 Live Deployments
+
+Experience AniMatch live in your browser:
+
+* 🚀 **Primary Cloud Deployment**: [animatch-306021682402.asia-southeast1.run.app](https://animatch-306021682402.asia-southeast1.run.app/)
+* ⚡ **Render Deployment**: [animatch-vigg.onrender.com](https://animatch-vigg.onrender.com/)
 
 ---
 
@@ -55,19 +74,24 @@ AniMatch is a highly polished, interactive, consumer-ready anime recommendation 
     ├── main.tsx            # Main DOM rendering hook
     ├── types.ts            # Shareable TypeScript domain definitions
     ├── components/
+    │   ├── ActivityFeedSection.tsx   # Social activity feed, likes, and comments
     │   ├── AnimeCard.tsx             # Grid item displaying title, score & genres
     │   ├── AnimeDetailModal.tsx      # Slide-over dynamic modal with full details and insights
     │   ├── AuthModal.tsx             # Premium custom auth forms and avatar selection
     │   ├── BrowseSection.tsx         # Advanced catalog exploration & filtering
-    │   ├── ChatAssistantSection.tsx  # Dynamic interactive companion guide chat room
+    │   ├── DiscoverFansSection.tsx   # Taste compatibility fan discovery
+    │   ├── FriendsSection.tsx        # Direct messaging, typing indicators & reactions
     │   ├── RecommendationSection.tsx # TF-IDF engine query, autocomplete & connection analysis
+    │   ├── TrendingSection.tsx       # Live seasonal trending showcase
     │   ├── UserProfileSection.tsx    # Dashboard stats, edit preferences & recent views
     │   └── WatchBoardSection.tsx     # Draggable watch lists and progress boards
     ├── data/
-    │   └── anime_data.json # Dynamic database pool containing popular titles
+    │   └── anime_data.json           # Dynamic database pool containing popular titles
     └── utils/
+        ├── compatibility.ts          # User taste match scoring algorithm
         ├── liveAnimeProvider.ts      # GraphQL and REST connectors for AniList/Jikan
-        └── recommender.ts            # Mathematical TF-IDF and Cosine Similarity model
+        ├── recommender.ts            # Mathematical TF-IDF and Cosine Similarity model
+        └── serverDb.ts               # Firestore operations for backend routes
 ```
 
 
@@ -94,8 +118,8 @@ Follow these steps to run AniMatch locally:
 
 ### 1. Clone & Set Up Directory
 ```bash
-git clone https://github.com/your-username/animatch.git
-cd animatch
+git clone https://github.com/Blue-kaiCodes/AniMatch.git
+cd AniMatch
 ```
 
 ### 2. Install Dependencies
